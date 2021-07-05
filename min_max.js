@@ -7,7 +7,8 @@ function findMinMax(array) {
   }
   let minElem = array[0];
   for (let i = 0; i < array.length; i++) {
-    if (typeof (array[i]) != 'number') { return 'function works with numbers' }
+    if (typeof (array[i]) != 'number') { 
+      return 'function works with numbers' }
     if (array[i] < minElem) {
       minElem = array[i]
     }
