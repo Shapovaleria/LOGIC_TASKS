@@ -23,4 +23,4 @@ let getUsers = async function func(url) {
 }
 
 getUsers = asyncTimerWrapper(getUsers, timer);
-getUsers('https://jsonplaceholder.typicode.com/users')
+getUsers('https://jsonplaceholder.typicode.com/users');
